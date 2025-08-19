@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hedyr HK — CV & Blog</title>
+  <meta name="description" content="CV dan Blog singkat — dibuat untuk GitHub Pages" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>.avatar{width:120px;height:120px;object-fit:cover;border-radius:9999px;}</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="max-w-4xl mx-auto p-6 flex items-center gap-4">
+    <img src="https://via.placeholder.com/150" alt="Foto Hedyr HK" class="avatar shadow-md">
+    <div>
+      <h1 class="text-3xl font-bold">Hedyr HK</h1>
+      <p class="text-sm text-gray-600">Mahasiswa • Web & IoT Enthusiast</p>
+      <div class="mt-2 flex gap-3 text-xs">
+        <a href="#contact" class="px-3 py-1 rounded bg-blue-600 text-white">Hubungi</a>
+        <a href="#projects" class="px-3 py-1 rounded border">Proyek</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6 grid gap-8 md:grid-cols-3 md:gap-6">
+    <section class="md:col-span-1 bg-white p-5 rounded-lg shadow-sm">
+      <h2 class="font-semibold mb-3">Tentang Saya</h2>
+      <p class="text-sm text-gray-600">Halo! Saya <strong>Hedyr HK</strong>, tertarik dengan teknologi IoT, pengembangan web, dan otomatisasi. Salah satu proyek saya adalah pengontrol lampu dengan NodeMCU.</p>
+      <h3 class="mt-4 font-medium">Keahlian</h3>
+      <ul class="mt-2 text-sm list-disc list-inside text-gray-700">
+        <li>HTML, CSS, JavaScript</li>
+        <li>NodeMCU / ESP8266 / ESP32</li>
+        <li>Git & GitHub</li>
+      </ul>
+      <h3 class="mt-4 font-medium">Pendidikan</h3>
+      <p class="text-sm text-gray-700">Universitas Negeri Makassar — Teknik Elektro (2021 - sekarang)</p>
+    </section>
+
+    <section class="md:col-span-2 bg-white p-5 rounded-lg shadow-sm">
+      <h2 class="font-semibold mb-3">Pengalaman & Proyek</h2>
+      <article class="mb-4">
+        <h3 class="font-medium">Rancang Bangun Pengontrolan Lampu</h3>
+        <p class="text-sm text-gray-600">Sebuah sistem pengontrolan lampu menggunakan NodeMCU dan integrasi WhatsApp.</p>
+      </article>
+      <div id="projects" class="grid gap-4 md:grid-cols-2">
+        <div class="p-3 border rounded">
+          <h4 class="font-medium">Proyek: Lampu IoT</h4>
+          <p class="text-sm text-gray-600">NodeMCU + Relay + WhatsApp bot.</p>
+        </div>
+        <div class="p-3 border rounded">
+          <h4 class="font-medium">Proyek: CV Web</h4>
+          <p class="text-sm text-gray-600">Template statis untuk GitHub Pages — bisa dipersonalisasi.</p>
+        </div>
+      </div>
+      <h2 class="mt-6 font-semibold">Blog</h2>
+      <div class="mt-3 space-y-3">
+        <article class="p-3 border rounded">
+          <h4 class="font-medium">Cara Deploy ke GitHub Pages</h4>
+          <p class="text-sm text-gray-600">Buat repo, unggah file index.html, aktifkan Pages. Selesai!</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="md:col-span-1 bg-white p-5 rounded-lg shadow-sm">
+      <h2 class="font-semibold mb-3">Kontak</h2>
+      <p class="text-sm text-gray-700">Email: <a href="mailto:hedyr@example.com" class="text-blue-600">hedyr@example.com</a></p>
+      <p class="text-sm text-gray-700">GitHub: <a href="https://github.com/hedyrhk" class="text-blue-600">github.com/hedyrhk</a></p>
+      <h3 class="mt-4 font-medium">Download CV</h3>
+      <a class="inline-block mt-2 px-3 py-1 border rounded text-sm" href="#">Unduh PDF (contoh)</a>
+    </section>
+  </main>
+
+  <footer class="max-w-4xl mx-auto p-6 text-center text-xs text-gray-500">
+    © 2025 Hedyr HK — Dibuat dengan ❤️ • Template untuk GitHub Pages
+  </footer>
+</body>
+</html>
